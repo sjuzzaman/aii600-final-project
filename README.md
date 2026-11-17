@@ -1,5 +1,42 @@
 # AII 600 final project
 
+## Project Information
+
+**Project Title:** Predicting Hourly Manhattan Yellow Taxi Demand
+
+**Student:** Syed Junaid Uzzaman
+
+**GitHub Username:** sjuzzaman
+
+### Project Description
+
+This project uses New York City Taxi and Limousine Commission (TLC) Yellow Taxi Trip Records from January through August 2026 to predict hourly taxi pickups in Manhattan.
+
+The project compares a Seasonal Naive Baseline with a Random Forest Regressor. The models are evaluated using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and an asymmetric decision-loss function.
+
+The objective is to help taxi fleet managers make more efficient hourly vehicle allocation decisions by reducing the estimated costs of unmet demand and unnecessary idle capacity.
+
+### Dataset
+
+**Source:** NYC Taxi and Limousine Commission (TLC)\
+**Period:** January–August 2026\
+
+**Original Records:** 29,703,355 taxi trips\
+**Target:** Hourly Manhattan yellow taxi pickups (trips/hour)\
+
+**Training:** January–June 2026\
+**Validation:** July 2026\
+**Testing:** August 2026
+
+### AI Assistance Disclosure
+
+ChatGPT and Claude was used to assist with Python code development, debugging, Markdown formatting, and reviewing project documentation. The project author reviewed the analysis and results.
+
+---
+
+Fork this repository once per project...
+
+
 Fork this repository once per project. The fork tracks the code and the documents. The documents are the proposal, the presentation, and `decisions.md`, which is the history of what was done and why.
 
 Follow the [final project lab](https://vsokolov.org/labs/final-project-lab.html) from the question through the decision to the short presentation. The strawberry harvest on that page is the worked example. Your project is your own hypothesis, your own data, and a decision someone will make differently because of the model. `CHECKLIST.md` is the lab's "In your project" boxes. The ticks on the lab page are saved in that browser only. `CHECKLIST.md` is the list that counts.
